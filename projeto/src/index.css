@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body p,h2{
+  color: white;
+}
+body p{
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+html, body, #root{
+  background-color: rgb(34, 34, 34);
+  height: 100%;
+}

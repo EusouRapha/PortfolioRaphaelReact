@@ -1,0 +1,18 @@
+.article_container{
+    margin-top: 7rem;
+}
+.imagem{
+    max-width: 20em;
+    max-height: 20em;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    border-style: outset;
+    border-color: rgb(255, 20, 28);
+    margin-left: 5rem;
+  }
+  .text{
+    line-height: 0em;
+    font-weight: 300;
+    font-size: 1.2rem;
+  }
