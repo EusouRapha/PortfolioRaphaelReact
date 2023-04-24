@@ -1,6 +1,7 @@
 .form_container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-bottom: 1em;
     margin-left: 3em;
 }

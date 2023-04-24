@@ -1,23 +1,23 @@
-import {AiOutlineMail} from "react-icons/ai";
-import styles from "./Social.module.css"
+import { AiOutlineMail } from "react-icons/ai";
+import styles from "./Social.module.css";
 
-function Social(){
-    return(
-        <article className={styles.article_container}>
-            <section>
-            <h1>Vamos conversar</h1>
-            <h1>Me mande uma mensagem no</h1>
-            <h1>formulario ao lado </h1>
-            <p>Qualquer duvida, estou a disposição</p>            
-            </section>
-            <AiOutlineMail></AiOutlineMail>
-
-        </article>
+function Social() {
+  return (
+    <article className={styles.article_container}>
+      <section className={styles.text_container}>
+        <h1>Vamos conversar.</h1>
+        <h1>Me mande uma mensagem</h1>
+        <h1>no formulario.</h1>
+        <p className={styles.text}>Qualquer duvida, estou a disposição</p>
+      </section>
+      <div className={styles.email_container}>
+        <AiOutlineMail></AiOutlineMail>
+        <p>Fale comigo em<br /><span>raphaelgw@gmail.com</span></p>
         
-
-
-    )
-
+      </div>
+    </article>
+    
+  );
 }
 
 export default Social;
