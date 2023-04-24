@@ -14,8 +14,8 @@
 }
 
 .logo {
-  max-width: 15em;
-  max-height: 20em;
+  max-width: 10em;
+  max-height: 10em;
   width: auto;
   height: auto;
   transition: 0.4s ease-in-out;
@@ -30,6 +30,7 @@
     font-weight: 300;
     font-size: 1.2em;
     text-decoration: none;
+    margin: .5em;
 
 }
 .item a{
