@@ -1,8 +1,9 @@
-import styles from "./Aside.module.css";function Aside() {
+import styles from "./Aside.module.css";
+function Aside() {
   return (
-    <aside>
+    <aside className={styles.aside}  >
       <div>
-        <h2>
+        <h2 className={styles.span}>
           <span>Olá, eu sou Rapha!</span>
         </h2>
         <h2>Seja bem-vindo(a) ao meu portfólio.</h2>

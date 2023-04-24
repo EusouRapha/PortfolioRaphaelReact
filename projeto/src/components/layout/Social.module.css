@@ -1,0 +1,11 @@
+.article_container{
+    padding: 3em;
+
+}
+
+.article_container h1{
+    /* color: rgb(255, 20, 28); */
+    color: white;
+    font-weight: 400;
+    font-size: 2em;
+}

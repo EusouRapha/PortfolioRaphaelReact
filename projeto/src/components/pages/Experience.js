@@ -1,6 +1,6 @@
 function Experience(){
     return(
-    <p>Experiencia</p>
+        <p>experience</p>
     ) 
 }
 

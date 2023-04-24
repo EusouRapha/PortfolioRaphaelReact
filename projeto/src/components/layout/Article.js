@@ -4,7 +4,7 @@ import photo from "../img/Eu.png";
 function Article() {
   return (
     <article className={styles.article_container}>
-        <img className={styles.imagem} src={photo}/>
+        <img className={styles.imagem} src={photo} alt="img"/>
     </article>
   );
 }

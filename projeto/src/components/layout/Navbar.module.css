@@ -14,11 +14,11 @@
 }
 
 .logo {
-  max-width: 10em;
-  max-height: 10em;
+  max-width: 9em;
   width: auto;
   height: auto;
   transition: 0.4s ease-in-out;
+  margin-top: 2rem;
 }
 
 .logo:hover{
