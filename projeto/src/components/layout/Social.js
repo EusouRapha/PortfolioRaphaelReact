@@ -12,7 +12,9 @@ function Social() {
       </section>
       <div className={styles.email_container}>
         <AiOutlineMail></AiOutlineMail>
-        <p>Fale comigo em<br /><span>raphaelgw@gmail.com</span></p>
+        <p>Fale comigo em<br />
+        <a href = "mailto: raphaelgw@gmail.com">raphaelgw@gmail.com</a>
+          </p>
         
       </div>
     </article>

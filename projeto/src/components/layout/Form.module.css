@@ -2,13 +2,61 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 3em;
     margin-bottom: 1em;
-    margin-left: 3em;
+    margin-left: 4em;
+    outline: 3px solid rgb(26, 26, 26); 
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+
 }
 .text{
+    margin-top: 1em;
     color: white;
+    margin-bottom: .5em;
+    font-size: .9em;
+
 }
 
-.input_container{
-    width: 30em;
+.form_container ::placeholder{
+    color: rgb(233, 233, 233); 
+    padding: 1em;
 }
+.form_container [type=text], [type=email]{
+    border: .1em solid white;
+    height: 3em;
+    border-radius: 10px;
+}
+
+.form_container textarea{
+    border: .1em solid white;
+    border-radius: 10px;
+    height: 6em;
+    background-color:  rgb(34, 34, 34); 
+    margin-bottom: 1em;
+}
+.input_container{
+    border: .1em solid white;
+    background-color:  rgb(34, 34, 34); 
+    width: 20em;
+}
+
+.form_container [type=submit]{
+    border: .1em solid white;
+    height: 3em;
+    border-radius: 10px;
+    margin-bottom: .5em;
+    background-color:  rgb(34, 34, 34); 
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+.form_container [type=submit]:hover{
+    color: red;
+    cursor: pointer;
+    }
+
+
+
+
+
