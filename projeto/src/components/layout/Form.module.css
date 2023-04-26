@@ -21,7 +21,6 @@
 
 .form_container ::placeholder{
     color: rgb(233, 233, 233); 
-    padding: 1em;
 }
 .form_container [type=text], [type=email]{
     border: .1em solid white;
@@ -40,7 +39,11 @@
     border: .1em solid white;
     background-color:  rgb(34, 34, 34); 
     width: 20em;
+    color: white;
+    padding: 1em;
+    
 }
+
 
 .form_container [type=submit]{
     border: .1em solid white;
@@ -54,9 +57,19 @@
 .form_container [type=submit]:hover{
     color: red;
     cursor: pointer;
-    }
+}
 
-
+.message_container{
+    border: .1em solid white;
+    background-color:  rgb(34, 34, 34); 
+    width: 20em;
+    color: white;
+    padding: .5em 1em;
+}
+.form_container p{
+    font-weight: 400;
+    
+}
 
 
 
