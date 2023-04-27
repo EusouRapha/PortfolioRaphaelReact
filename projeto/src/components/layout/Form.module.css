@@ -55,7 +55,7 @@
     transition: 0.4s ease-in-out;
 }
 .form_container [type=submit]:hover{
-    color: red;
+    color: rgb(255, 20, 28);
     cursor: pointer;
 }
 
