@@ -12,7 +12,7 @@ function NavBar() {
             <Link to="/">Home</Link>
           </li >
           <li className={styles.item}>
-            <Link to="/Experience">Experience</Link>
+            <Link to="/Tecnology">Tecnologias</Link>
           </li >
           <Link to="/">
             <img className={styles.logo} src={logo} alt="Portfolio" />
@@ -21,7 +21,7 @@ function NavBar() {
             <Link to="/Contact">Contato</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/About">Sobre</Link>
+            <Link to="/Experience">Experiencia</Link>
           </li>
         </ul>
     </nav>
