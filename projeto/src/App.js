@@ -13,6 +13,7 @@ function App() {
         <NavBar></NavBar>
         <Container customClass="min-height">
         <Routes>
+          <Route path="/PortfolioRaphaelReact" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Experience" element={<Experience />} />
