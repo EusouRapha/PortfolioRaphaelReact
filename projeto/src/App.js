@@ -14,6 +14,7 @@ function App() {
         <Container customClass="min-height">
         <Routes>
           <Route path="/PortfolioRaphaelReact" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Experience" element={<Experience />} />
           <Route path="/Tecnology" element={<Tecnology />} />
