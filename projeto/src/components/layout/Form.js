@@ -35,7 +35,6 @@ function Form() {
       alert("Email Enviado");
     }
     e.preventDefault();
-    window.location = "/Contact"; 
   }
 
   const sendEmail = (e) => {
