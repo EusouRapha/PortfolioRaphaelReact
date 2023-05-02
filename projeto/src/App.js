@@ -16,7 +16,7 @@ function App() {
           <Route path="/PortfolioRaphaelReact" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Contact" element={<Contact />} />
-          <Route path="/ReloadContact" element={<Contact />} />
+          <Route path="/Contact/" element={<Contact />} />
           <Route path="/Experience" element={<Experience />} />
           <Route path="/Tecnology" element={<Tecnology />} />
         </Routes>

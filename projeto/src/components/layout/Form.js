@@ -28,14 +28,14 @@ function Form() {
 
     if (!validateInputs(username, email, message)) {
       alert("Preencha todos os campos");
-      return navigate('/ReloadContact')
+      return navigate('/Contact/')
     } else if (!isValiEmail(email)) {
       alert("Preencha o campo de email corretamente");
-      return navigate('/ReloadContact')
+      return navigate('/Contact/')
     } else {
       sendEmail(e);
       alert("Email Enviado");
-      return navigate('/ReloadContact')
+      return navigate('/Contact/')
     }
   }
 
