@@ -28,14 +28,15 @@ function Form() {
 
     if (!validateInputs(username, email, message)) {
       alert("Preencha todos os campos");
+      return navigate('/Home')
     } else if (!isValiEmail(email)) {
       alert("Preencha o campo de email corretamente");
+      return navigate('/Home')
     } else {
       sendEmail(e);
       alert("Email Enviado");
+      return navigate('/Home')
     }
-    e.preventDefault();
-    return navigate('/Home')
   }
 
   const sendEmail = (e) => {
