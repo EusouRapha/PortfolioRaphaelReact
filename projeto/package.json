@@ -2,7 +2,7 @@
   "name": "projeto",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://EusouRapha.github.io/PortfolioRaphaelReact/projeto/src/index.js",
+  "homepage": "https://EusouRapha.github.io/PortfolioRaphaelReact/",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
