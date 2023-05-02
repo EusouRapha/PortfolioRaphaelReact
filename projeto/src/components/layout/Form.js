@@ -34,6 +34,7 @@ function Form() {
       sendEmail(e);
       alert("Email Enviado");
     }
+    e.preventDefault();
     return navigate('/Contact')
   }
 
