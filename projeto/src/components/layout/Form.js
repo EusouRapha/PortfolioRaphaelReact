@@ -34,7 +34,7 @@ function Form() {
       sendEmail(e);
       alert("Email Enviado");
     }
-    return navigate('/Home')
+    return navigate('/Contact')
   }
 
   const sendEmail = (e) => {
