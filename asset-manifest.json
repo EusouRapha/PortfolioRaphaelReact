@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioRaphaelReact/static/css/main.15ddbbdf.css",
-    "main.js": "/PortfolioRaphaelReact/static/js/main.bc2a266d.js",
+    "main.js": "/PortfolioRaphaelReact/static/js/main.30e4d1f2.js",
     "static/media/Eu.png": "/PortfolioRaphaelReact/static/media/Eu.067dd22126f74cbbb7dd.png",
     "static/media/LOGO-FAEL.png": "/PortfolioRaphaelReact/static/media/LOGO-FAEL.9cc8dc6c70624bf5fc8e.png",
     "static/media/aperam.png": "/PortfolioRaphaelReact/static/media/aperam.83a5fd9a93855ae9961e.png",
@@ -10,10 +10,10 @@
     "static/media/cefetmg.png": "/PortfolioRaphaelReact/static/media/cefetmg.298f84cbe6eb8937c02d.png",
     "index.html": "/PortfolioRaphaelReact/index.html",
     "main.15ddbbdf.css.map": "/PortfolioRaphaelReact/static/css/main.15ddbbdf.css.map",
-    "main.bc2a266d.js.map": "/PortfolioRaphaelReact/static/js/main.bc2a266d.js.map"
+    "main.30e4d1f2.js.map": "/PortfolioRaphaelReact/static/js/main.30e4d1f2.js.map"
   },
   "entrypoints": [
     "static/css/main.15ddbbdf.css",
-    "static/js/main.bc2a266d.js"
+    "static/js/main.30e4d1f2.js"
   ]
 }
