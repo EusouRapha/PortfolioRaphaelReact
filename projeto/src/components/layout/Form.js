@@ -1,8 +1,10 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styles from "./Form.module.css";
+import { useNavigate } from 'react-router-dom';
 
 function Form() {
+  const navigate = useNavigate();
   const form = useRef();
 
   function isValiEmail(email) {
@@ -32,6 +34,8 @@ function Form() {
       sendEmail(e);
       alert("Email Enviado");
     }
+    e.preventDefault();
+    window.location = "/Contact"; 
   }
 
   const sendEmail = (e) => {
