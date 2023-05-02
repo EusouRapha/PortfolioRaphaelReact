@@ -9,12 +9,12 @@ function NavBar() {
 
         <ul className={styles.list}>
           <li className={styles.item}>
-            <Link to="/">Home</Link>
+            <Link to="/Home">Home</Link>
           </li >
           <li className={styles.item}>
             <Link to="/Tecnology">Tecnologias</Link>
           </li >
-          <Link to="/">
+          <Link to="/Home">
             <img className={styles.logo} src={logo} alt="Portfolio" />
           </Link>
           <li className={styles.item}>
